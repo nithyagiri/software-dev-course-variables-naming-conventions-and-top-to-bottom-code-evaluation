@@ -32,10 +32,11 @@ let d = a + " bought " + b + " items for $" + c + ".";
 
 console.log(d);
 */
-let boyName = "Alice";
+let customer = "Alice";
 let action = "bought"
 let quantity = 5;
-let price = 20;
-let data = boyName + action + quantity + " items for $" + price + ".";
-console.log(data);
+let itemName = "balls"
+let price = 30;
+let message = customer + " " + action +" "+ quantity + " " + itemName + " for $" + price + ".";
+console.log(message);
 
